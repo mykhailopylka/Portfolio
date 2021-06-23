@@ -1,0 +1,58 @@
+.works__block{
+    display: flex;
+    width: 100%;
+}
+.works__block-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2.8rem 2.5rem 2.5rem 3rem;
+}
+// text ------------------
+.works__block-text{
+    margin: 3rem 0;
+}
+
+// Button -----------------
+.works__block-btn{
+    display: block;
+    margin: 3rem 0;
+
+}
+.works__block-list{
+    display: flex;
+    padding-left: 0;
+}
+.works__block-list a{
+    display: block;
+    padding: .4rem .9rem;
+    background-color: #EA8C1E;
+    color: $white;
+    margin-right: 1rem;
+    border-radius: .3rem;
+    transition: .25s all;
+        &:hover{
+            background-color: darken($color: #EA8C1E, $amount: 10%);
+        }
+}
+
+// Button send
+.works__block-send{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    // margin-top: 28rem;
+
+}
+.works__block-send a{
+    display: block;
+    width: 12rem;
+    padding: .8rem 1.4rem;
+    background-color: #3137C9;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    transition: .25s all;
+        &:hover{
+            background-color: darken($color: #3137C9, $amount: 10%);
+        }
+}

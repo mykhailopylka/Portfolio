@@ -1,0 +1,63 @@
+// Запис швидкого поста з можливістю добавляння картинки
+.add-post{
+    display: block;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 4px rgba($color: $black, $alpha: .25);
+    width: 100%;
+    height: 8rem;
+    background-color: $secondary;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    padding: 1.5rem 2rem;
+}
+.add-post__form{
+    display: flex;
+}
+.add-post__textarea{
+    display: block;
+    width: 90%;
+    font-family: inherit;
+    font-size: 1.5rem;
+    color: $white;
+    background: transparent;
+    border: none;
+    resize: none;
+    &::placeholder{
+        color: $texts-whight;
+    }
+    &:focus{
+        outline-width: 0;
+    }
+    padding-top: 1.8rem;
+}
+// Buttons ==========================
+.add-post__form-actions{
+    display: flex;
+    justify-content: flex-end;
+}
+.add-post__file, .add-post__send {
+    display: block;
+    width: 4.4rem;
+    height: 4.4rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .25s all;       
+}
+.add-post__file{
+    margin: 0 1.5rem;
+    background: #EBEBEB url("../images/icons/photo.svg") center no-repeat;
+    input{
+        display: none;
+    }
+    &:hover{
+        background-color: darken($color:  #EBEBEB, $amount: 15%) ;
+    }            
+}
+.add-post__send{
+    padding-top: .3rem;
+    background-color: $blue;
+    border: none;
+        &:hover{
+            background-color: darken($color: $blue, $amount: 10%) ;
+        }
+}

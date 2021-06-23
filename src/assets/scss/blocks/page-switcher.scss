@@ -1,0 +1,25 @@
+.page-switcher{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 8rem 0;
+}
+.page-switcher__wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 240px;
+    margin: 0 auto;
+}
+.page-switcher__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    color: $white;
+    background-color: $black-switcher;
+    border-radius: .3rem;
+    &:hover{
+        background-color: #104BE3;
+    }
+}

@@ -1,0 +1,14 @@
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+  }
+  .social__item{
+    margin: .75rem; // в суммі між значками буде 15px
+  }
+  .social__link img{
+      width: 3rem;
+      height: 3rem;
+  }

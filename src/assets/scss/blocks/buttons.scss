@@ -1,0 +1,33 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 4rem;
+    margin: 0 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    color: $white;
+}
+.btn--red{
+    background-color: $red;
+    box-shadow: 0 7px 17px -10px rgba($red, .20);
+    transition: .25s all;
+    &:hover{
+        background-color: darken($red, 10%);
+    }
+
+}
+.btn--blue{    
+    background-color: $blue;
+    box-shadow: 0 7px 17px rgba($blue, .20);
+    border: none;
+    transition: .25s all;
+    &:hover{
+        background-color: darken($blue, 5%);
+    }
+    // Забираю рамку при натисканні на кнопку:
+    &:active, &:focus {
+        outline: none;
+    }
+}

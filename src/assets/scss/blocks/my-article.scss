@@ -1,0 +1,72 @@
+.my-article{
+    display: block;    
+    width: 100%;
+    box-shadow: 0 4px 4px rgba($black, .25);
+    background-color: $primary;
+    margin-bottom: 3rem;
+    border-radius: 5px;
+}
+.my-article__img img{
+    display: block;
+    width: 100%;
+    height: 24.5rem;
+    object-fit: cover;
+}
+.my-article__footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.1rem;
+    position: relative;
+}
+.my-article__footer-left{
+    display: flex;
+    justify-content: space-between;
+    width: 22rem;
+}
+.show-article__time{
+    bottom: 2.5rem;
+    color: $gray; 
+}
+.article__text{
+    color: $texts-whight;
+}
+.my-article__dot{
+    color: $gray;
+    &::before{
+        content: "";
+        margin-left: 0rem;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        bottom: .5rem;
+        left: 9rem;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        background-color: #C4C4C4;
+    }
+}
+.my-article__link{
+    color: $link-blue;
+    transition: .25 all;
+    &:hover{
+        color: lighten($color: $link-blue, $amount: 10%);
+    }
+}
+
+// video -----------
+.my-article__video{
+    padding-top: 2.5rem;
+}
+.article-video{
+    display: block;
+    width: calc(100% - 5rem);
+    height: 40rem;
+    margin: 0 2.5rem;
+}
+
+// Next block
+.block-img img{
+    height: 28.3rem;
+}
