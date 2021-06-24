@@ -387,10 +387,10 @@ h6 {
 .nav__item {
   position: relative; }
   .nav__item:hover .nav__list-link {
-    background-color: #2A5FE7; }
+    background-color: #828282; }
   .nav__item:hover > .subnav {
     display: block;
-    background-color: #2A5FE7; }
+    background-color: #828282; }
 
 .nav__list li {
   list-style-type: none; }
@@ -436,7 +436,7 @@ h6 {
   padding: .8rem;
   transition: .25s ease-in-out; }
   .subnav li:hover {
-    background-color: #1950de; }
+    background-color: #757575; }
 
 .subnav__link {
   transition: .25s linear; }

@@ -16,7 +16,7 @@
     padding: .8rem;
     transition: .25s ease-in-out;
     &:hover{
-        background-color: darken($color: $blue, $amount: 5%);        
+        background-color: darken($color: $gray, $amount: 5%);        
     }    
 }
 .subnav__link{

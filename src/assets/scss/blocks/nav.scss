@@ -18,11 +18,11 @@
     position: relative;
     &:hover{
         .nav__list-link{
-            background-color: $blue;
+            background-color: $gray;
         }
         > .subnav{
             display: block;
-            background-color: $blue;
+            background-color: $gray;
         }
     }
 }
